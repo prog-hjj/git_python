@@ -1,0 +1,21 @@
+# 利萨茹曲线:
+# x = A * sin(at + pi/2)
+# y = B * sin(bt)
+
+import numpy as np
+from matplotlib.pyplot import plot
+from matplotlib.pyplot import show
+import sys
+
+try:
+    a = float(sys.argv[1])
+    b = float(sys.argv[2])
+except IndexError as e:
+    a = 9
+    b = 8
+
+t = np.linspace(-np.pi, np.pi, 201)
+x = np.sin(a * t + np.pi/2)
+y = np.sin(b * t)
+plot(x, y)
+show()
