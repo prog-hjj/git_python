@@ -1,0 +1,15 @@
+杨燕琳 开心咕噜 zeronicky@163.com  page236
+朱圣洲 qq:松心耐雪 506407187  page246   手机：13524651195 page140
+
+公众号：心花绽放测试窝
+
+
+
+pip install requests
+
+pip install websocket
+pip install websocket-client
+
+百度页面，浏览器地址栏输入  Javascript.alert(document.cookie) 可查看Cookie
+
+出现 SSL: CERTIFICATE_VERIFY_FAILED，关掉fiddler代理则正常
