@@ -1,0 +1,5 @@
+在线中文版：
+https://codingpy.com/books/thinkpython2/index.html#
+
+LaTeX source code for this book：
+https://github.com/AllenDowney/ThinkPython2
